@@ -10,9 +10,9 @@ local template = {
 
 require "ISUI/ISUIElement"
 
-local __FILE_NAME__ = ISUIElement:derive("__FILE_NAME__");
+local __1__ = ISUIElement:derive("__1__");
 
-function __FILE_NAME__:initialise()
+function __1__:initialise()
     -- (Initializes the superclass first)
     ISUIElement.initialise(self);
 
@@ -20,22 +20,22 @@ function __FILE_NAME__:initialise()
 end
 
 --- Calculative updates for the element goes here.
-function __FILE_NAME__:update()
+function __1__:update()
 
 end
 
 --- Any pre-rendered tasks for the element goes here.
-function __FILE_NAME__:prerender()
+function __1__:prerender()
 
 end
 
 --- All render code goes here.
 ---
 --- **NOTE**: The render method is called every frame.
-function __FILE_NAME__:render()
+function __1__:render()
 
 end
 
-return __FILE_NAME__;
+return __1__;
 
 --- @template-block-end
